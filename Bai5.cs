@@ -72,6 +72,7 @@
                         string[] thu = { "Chu nhat", "Thu 2", "Thu 3", "Thu 4", "Thu 5", "Thu 6", "Thu 7" };
                         DateTime dt = new DateTime(nam, thang, ngay);
                         Console.WriteLine($"\nHom do la {thu[(int)dt.DayOfWeek]}");
+                        break;
                     }
                     else
                         Console.WriteLine("\n[Khong hop le, vui long thu lai]");
@@ -80,3 +81,4 @@
         }
     }
 }
+
